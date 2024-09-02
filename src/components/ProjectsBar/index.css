@@ -1,0 +1,393 @@
+.project-container{
+    width: 100vw;
+    height: 170vh;
+    background-color: #cee9f1;
+    display: flex;
+    flex-direction: column;
+}
+.project-container:hover{
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.head1-project{
+    font-family: poppins;
+    font-size: 2.2rem;
+    color: #21243D;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2vh;
+}
+.p1-div-project{
+    width: 85vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+}
+.img1-project{
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.div1-project{
+    display: flex;
+    flex-direction: column;
+}
+.p1-h1-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.p1-h2-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 6vh;
+}
+.p1-h3-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 15vh;
+}
+.p1-img-div-project{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    position: relative;
+    bottom: 18vh;
+}
+.p1-img1-project{
+    cursor: pointer;
+}
+.p1-img2-project{
+    cursor: pointer;
+}
+.null-div1-project{
+    width: 85vw;
+    border: 2px solid #D7D7D7;
+    border-radius: 2px;
+    position: relative;
+    left: 8vw;
+}
+.p2-div-project{
+    width: 85vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+}
+.img2-project{
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.div2-project{
+    display: flex;
+    flex-direction: column;
+}
+.p2-h1-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.p2-h2-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 6vh;
+}
+.p2-h3-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 15vh;
+}
+.p2-img-div-project{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    position: relative;
+    bottom: 18vh;
+}
+.p2-img1-project{
+    cursor: pointer;
+}
+.p2-img2-project{
+    cursor: pointer;
+}
+.null-div2-project{
+    width: 85vw;
+    border: 2px solid #D7D7D7;
+    border-radius: 2px;
+    position: relative;
+    left: 8vw;
+}
+.p3-div-project{
+    width: 85vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+}
+.img3-project{
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.div3-project{
+    display: flex;
+    flex-direction: column;
+}
+.p3-h1-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.p3-h2-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 6vh;
+}
+.p3-h3-project{
+    color: #21243D;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 15vh;
+}
+.p3-img-div-project{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    position: relative;
+    bottom: 18vh;
+}
+.p3-img1-project{
+    cursor: pointer;
+}
+.p3-img2-project{
+    cursor: pointer;
+}
+.null-div3-project{
+    width: 85vw;
+    border: 2px solid #D7D7D7;
+    border-radius: 2px;
+    position: relative;
+    left: 8vw;
+}
+@media (max-width: 768px){
+    .project-container{
+        width: 100vw;
+        height: 220vh;
+        background-color: #cee9f1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 25px 0px #00000026;
+    }
+    .head1-project{
+        font-family: poppins;
+        font-size: 2.2rem;
+        color: #21243D;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 2vh;
+    }
+    .p1-div-project{
+        width: 93vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        position: relative;
+        top: -2vh;
+        left: 3vw;
+    }
+    .img1-project{
+        width: 94vw;
+        border-radius: 20px;
+        box-shadow: 0px 0px 25px 0px #00000026;
+    }
+    .div1-project{
+        display: flex;
+        flex-direction: column;
+    }
+    .p1-h1-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .p1-h2-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 6vh;
+    }
+    .p1-h3-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 13vh;
+    }
+    .p1-img-div-project{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 15vh;
+    }
+    .null-div1-project{
+        width: 85vw;
+        border: 2px solid #D7D7D7;
+        border-radius: 2px;
+        position: relative;
+        left: 7.5vw;
+    }
+    .p2-div-project{
+        width: 94vw;
+        height: 67vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        position: relative;
+        top: 2vh;
+        left: 3vw;
+    }
+    .img2-project{
+        width: 94vw;
+        border-radius: 20px;
+        box-shadow: 0px 0px 25px 0px #00000026;
+    }
+    .div2-project{
+        display: flex;
+        flex-direction: column;
+    }
+    .p2-h1-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .p2-h2-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 6vh;
+    }
+    .p2-h3-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 13vh;
+    }
+    .p2-img-div-project{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 15vh;
+    }
+    .null-div2-project{
+        width: 85vw;
+        border: 2px solid #D7D7D7;
+        border-radius: 2px;
+        position: relative;
+        top: 4vh;
+        left: 7.5vw;
+    }
+    .p3-div-project{
+        width: 94vw;
+        height: 59vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        position: relative;
+        top: 6vh;
+        left: 3vw;
+    }
+    .img3-project{
+        width: 94vw;
+        border-radius: 20px;
+        box-shadow: 0px 0px 25px 0px #00000026;
+    }
+    .div3-project{
+        display: flex;
+        flex-direction: column;
+    }
+    .p3-h1-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .p3-h2-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 6vh;
+    }
+    .p3-h3-project{
+        color: #21243D;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 1.2rem;
+        position: relative;
+        bottom: 13vh;
+    }
+    .p3-img-div-project{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 15vh;
+    }
+    .null-div3-project{
+        width: 85vw;
+        border: 2px solid #D7D7D7;
+        border-radius: 2px;
+        position: relative;
+        top: 7vh;
+        left: 7.5vw;
+    }
+}
