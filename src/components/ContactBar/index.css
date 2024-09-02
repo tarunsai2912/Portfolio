@@ -151,7 +151,7 @@
     .d1-img-contact{
         cursor: pointer;
         position: relative;
-        left: 25vw;
+        left: 24vw;
         top: 0.6vh;
     }
     .d1-div2-contact{
@@ -173,7 +173,7 @@
         color: #21243D;
         font-weight: 500;
         position: relative;
-        left: 2vw;
+        left: 3vw;
         bottom: 2.5vh;
     }
     .d2-img-contact{
