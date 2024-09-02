@@ -100,7 +100,7 @@
 }
 @media (max-width: 768px){
     .contact-container{
-        height: 40vh;
+        height: 41vh;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -142,7 +142,7 @@
         font-weight: 500;
         position: relative;
         left: 11vw;
-        bottom: 2vh;
+        bottom: 2.5vh;
     }
     .d1-img-contact{
         cursor: pointer;
@@ -167,7 +167,7 @@
         font-weight: 500;
         position: relative;
         left: 3vw;
-        bottom: 2vh;
+        bottom: 2.5vh;
     }
     .d2-img-contact{
         cursor: pointer;
@@ -192,7 +192,7 @@
         flex-direction: row;
         gap: 3vw;
         position: relative;
-        bottom: 1vh;
+        bottom: 2vh;
         left: 25vw;
     }
 }

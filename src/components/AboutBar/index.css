@@ -54,7 +54,7 @@
 @media (max-width: 768px) {
     .about-container{
         width: 100vw;
-        height: 118vh;
+        height: 150vh;
         display: flex;
         flex-direction: column;
         gap: 0vh;
@@ -99,7 +99,7 @@
         rotate: -30deg;
         position: relative;
         left: 15vw;
-        top: -30vh;
+        top: 0vh;
     }
     .about-img1-container{
         width: 55vw;

@@ -201,7 +201,7 @@
 @media (max-width: 768px){
     .project-container{
         width: 100vw;
-        height: 220vh;
+        height: 240vh;
         background-color: #cee9f1;
         display: flex;
         flex-direction: column;
@@ -272,6 +272,7 @@
         border: 2px solid #D7D7D7;
         border-radius: 2px;
         position: relative;
+        top: 5vh;
         left: 7.5vw;
     }
     .p2-div-project{
@@ -281,7 +282,7 @@
         flex-direction: column;
         gap: 1vw;
         position: relative;
-        top: 2vh;
+        top: 7vh;
         left: 3vw;
     }
     .img2-project{
@@ -329,7 +330,7 @@
         border: 2px solid #D7D7D7;
         border-radius: 2px;
         position: relative;
-        top: 4vh;
+        top: 9vh;
         left: 7.5vw;
     }
     .p3-div-project{
@@ -339,7 +340,7 @@
         flex-direction: column;
         gap: 1vw;
         position: relative;
-        top: 6vh;
+        top: 11vh;
         left: 3vw;
     }
     .img3-project{
@@ -387,7 +388,7 @@
         border: 2px solid #D7D7D7;
         border-radius: 2px;
         position: relative;
-        top: 7vh;
+        top: 12vh;
         left: 7.5vw;
     }
 }
