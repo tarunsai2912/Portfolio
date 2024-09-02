@@ -192,7 +192,7 @@
         flex-direction: row;
         gap: 3vw;
         position: relative;
-        bottom: 2vh;
+        bottom: 2.5vh;
         left: 25vw;
     }
 }

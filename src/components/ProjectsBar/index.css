@@ -330,7 +330,7 @@
         border: 2px solid #D7D7D7;
         border-radius: 2px;
         position: relative;
-        top: 9vh;
+        top: 12vh;
         left: 7.5vw;
     }
     .p3-div-project{
@@ -340,7 +340,7 @@
         flex-direction: column;
         gap: 1vw;
         position: relative;
-        top: 11vh;
+        top: 14vh;
         left: 3vw;
     }
     .img3-project{
@@ -388,7 +388,7 @@
         border: 2px solid #D7D7D7;
         border-radius: 2px;
         position: relative;
-        top: 12vh;
+        top: 15vh;
         left: 7.5vw;
     }
 }
