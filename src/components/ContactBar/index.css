@@ -100,7 +100,7 @@
 }
 @media (max-width: 768px){
     .contact-container{
-        height: 35vh;
+        height: 40vh;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -147,7 +147,7 @@
     .d1-img-contact{
         cursor: pointer;
         position: relative;
-        left: 30vw;
+        left: 25vw;
         top: 0.6vh;
     }
     .d1-div2-contact{
@@ -173,7 +173,7 @@
         cursor: pointer;
         position: relative;
         left: 4vw;
-        top: 2vh;
+        top: 1vh;
     }
     .head2-contact{
         width: 94vw;
@@ -192,7 +192,7 @@
         flex-direction: row;
         gap: 3vw;
         position: relative;
-        bottom: 1.5vh;
+        bottom: 1vh;
         left: 25vw;
     }
 }

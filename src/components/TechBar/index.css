@@ -108,16 +108,16 @@
         justify-content: center;
     }
     .top-div-tech{
-        width: 85vw;
+        width: 95vw;
         display: flex;
         flex-direction: column;
         flex-flow: wrap;
         gap: 2vw;
         position: relative;
-        left: 8vw;
+        left: 2.5vw;
     }
     .tech-div-tech{
-        width: 26.5vw;
+        width: 30vw;
         display: flex;
         flex-direction: column;
         background-color: #21243D;
@@ -153,15 +153,16 @@
         justify-content: center;
     }
     .foot-div-tech{
+        width: 95vw;
         display: flex;
         flex-direction: column;
         flex-flow: wrap;
-        width: 85vw;
         gap: 2vw;
         position: relative;
-        left: 8vw;
+        left: 2.5vw;
     }
     .tool-div-tech{
+        width: 30vw;
         display: flex;
         flex-direction: column;
         background-color: #21243D;

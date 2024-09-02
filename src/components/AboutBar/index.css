@@ -54,7 +54,7 @@
 @media (max-width: 768px) {
     .about-container{
         width: 100vw;
-        height: 135vh;
+        height: 118vh;
         display: flex;
         flex-direction: column;
         gap: 0vh;
@@ -76,17 +76,18 @@
         color: #21243D;
         position: relative;
         left: 25vw;
+        top: -3vh;
     }
     .about-head2-container{
         font-family: poppins;
         width: 92vw;
         height: 95vh;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #21243D;
         font-weight: 400;
         position: relative;
         left: 1vw;
-        bottom: 12vh;
+        bottom: 10vh;
     }
     .about-div2-container{
         background-color: rgb(147, 131, 234);
@@ -98,7 +99,7 @@
         rotate: -30deg;
         position: relative;
         left: 15vw;
-        top: -12vh;
+        top: -30vh;
     }
     .about-img1-container{
         width: 55vw;
