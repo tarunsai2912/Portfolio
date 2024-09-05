@@ -1,10 +1,10 @@
 import React from 'react'
-import linkedinLogo from '../../assets/linkedin_logo.png'
-import gmailLogo from '../../assets/gmail_logo.png'
-import fbLogo from '../../assets/facebook_logo.png'
-import instaLogo from '../../assets/instagram_logo.jpg'
+import linkedinLogo from '../../assets/linkedin.png'
+import gmailLogo from '../../assets/gmail.png'
+import fbLogo from '../../assets/facebook.png'
+import instaLogo from '../../assets/instagram.jpg'
 import copyLogo from '../../assets/copy.png'
-import gitLogo from '../../assets/github_logo.png'
+import gitLogo from '../../assets/github.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './index.css'

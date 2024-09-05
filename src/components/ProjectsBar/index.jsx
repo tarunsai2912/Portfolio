@@ -3,8 +3,8 @@ import './index.css'
 import quizPic from '../../assets/quiz_app_pic.jpg'
 import jobPic from '../../assets/jobfinder_app_pic.jpg'
 import notesPic from '../../assets/pocket_notes_pic.jpg'
-import github_logo from '../../assets/github_logo.png'
-import link_logo from '../../assets/link_logo.png'
+import github_logo from '../../assets/github.png'
+import link_logo from '../../assets/link.png'
 
 function ProjectsBar() {
   return (
