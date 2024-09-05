@@ -291,6 +291,18 @@
         position: relative;
         bottom: 15vh;
     }
+    .p1-img1-project{
+        filter: grayscale(0%);
+    }
+    .p1-img1-project:hover{
+        filter: grayscale(0%);
+    }
+    .p1-img2-project{
+        filter: grayscale(0%);
+    }
+    .p1-img2-project:hover{
+        filter: grayscale(0%);
+    }
     .null-div1-project{
         width: 85vw;
         border: 2px solid #D7D7D7;
@@ -349,6 +361,18 @@
         position: relative;
         bottom: 15vh;
     }
+    .p2-img1-project{
+        filter: grayscale(0%);
+    }
+    .p2-img1-project:hover{
+        filter: grayscale(0%);
+    }
+    .p2-img2-project{
+        filter: grayscale(0%);
+    }
+    .p2-img2-project:hover{
+        filter: grayscale(0%);
+    }
     .null-div2-project{
         width: 85vw;
         border: 2px solid #D7D7D7;
@@ -406,6 +430,18 @@
         gap: 0.5vw;
         position: relative;
         bottom: 15vh;
+    }
+    .p3-img1-project{
+        filter: grayscale(0%);
+    }
+    .p3-img1-project:hover{
+        filter: grayscale(0%);
+    }
+    .p3-img2-project{
+        filter: grayscale(0%);
+    }
+    .p3-img2-project:hover{
+        filter: grayscale(0%);
     }
     .null-div3-project{
         width: 85vw;

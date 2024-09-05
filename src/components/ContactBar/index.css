@@ -228,9 +228,39 @@
         width: 22vw;
         display: flex;
         flex-direction: row;
-        gap: 3vw;
+        gap: 4vw;
         position: relative;
         bottom: 2.5vh;
         left: 25vw;
+    }
+    .d2-img1-contact{
+        filter: grayscale(0%);
+    }
+    .d2-img1-contact:hover{
+        filter: grayscale(0%);
+    }
+    .d2-img2-contact{
+        filter: grayscale(0%);
+    }
+    .d2-img2-contact:hover{
+        filter: grayscale(0%);
+    }
+    .d2-img3-contact{
+        filter: grayscale(0%);
+    }
+    .d2-img3-contact:hover{
+        filter: grayscale(0%);
+    }
+    .d2-img4-contact{
+        filter: grayscale(0%);
+    }
+    .d2-img4-contact:hover{
+        filter: grayscale(0%);
+    }
+    .d2-img5-contact{
+        filter: grayscale(0%);
+    }
+    .d2-img5-contact:hover{
+        filter: grayscale(0%);
     }
 }
