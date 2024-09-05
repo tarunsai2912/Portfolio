@@ -97,6 +97,37 @@
 }
 .d2-img1-contact{
     cursor: pointer;
+    filter: grayscale(100%);
+}
+.d2-img1-contact:hover{
+    filter: grayscale(0%);
+}
+.d2-img2-contact{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.d2-img2-contact:hover{
+    filter: grayscale(0%);
+}
+.d2-img3-contact{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.d2-img3-contact:hover{
+    filter: grayscale(0%);
+}.d2-img4-contact{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.d2-img4-contact:hover{
+    filter: grayscale(0%);
+}
+.d2-img5-contact{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.d2-img5-contact:hover{
+    filter: grayscale(0%);
 }
 @media (max-width: 768px){
     .contact-container{

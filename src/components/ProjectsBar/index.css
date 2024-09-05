@@ -66,10 +66,18 @@
     bottom: 18vh;
 }
 .p1-img1-project{
+    filter: grayscale(100%);
     cursor: pointer;
 }
+.p1-img1-project:hover{
+    filter: grayscale(0%);
+}
 .p1-img2-project{
+    filter: grayscale(100%);
     cursor: pointer;
+}
+.p1-img2-project:hover{
+    filter: grayscale(0%);
 }
 .null-div1-project{
     width: 85vw;
@@ -126,10 +134,18 @@
     bottom: 18vh;
 }
 .p2-img1-project{
+    filter: grayscale(100%);
     cursor: pointer;
 }
+.p2-img1-project:hover{
+    filter: grayscale(0%);
+}
 .p2-img2-project{
+    filter: grayscale(100%);
     cursor: pointer;
+}
+.p2-img2-project:hover{
+    filter: grayscale(0%);
 }
 .null-div2-project{
     width: 85vw;
@@ -186,10 +202,18 @@
     bottom: 18vh;
 }
 .p3-img1-project{
+    filter: grayscale(100%);
     cursor: pointer;
 }
+.p3-img1-project:hover{
+    filter: grayscale(0%);
+}
 .p3-img2-project{
+    filter: grayscale(100%);
     cursor: pointer;
+}
+.p3-img2-project:hover{
+    filter: grayscale(0%);
 }
 .null-div3-project{
     width: 85vw;

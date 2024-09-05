@@ -3,8 +3,8 @@ import './index.css'
 import quizPic from '../../assets/quiz_app_pic.jpg'
 import jobPic from '../../assets/jobfinder_app_pic.jpg'
 import notesPic from '../../assets/pocket_notes_pic.jpg'
-import github_logo from '../../assets/github.png'
-import link_logo from '../../assets/link.png'
+import github_logo from '../../assets/github_logo.png'
+import link_logo from '../../assets/link_logo.png'
 
 function ProjectsBar() {
   return (
@@ -44,7 +44,7 @@ function ProjectsBar() {
           <h6 className='p3-h3-project'>React.js | HTML | CSS | JavaScript | LocalStorage | Github | Git</h6>
           <div className='p3-img-div-project'>
             <img className='p3-img1-project' src={github_logo} alt='github_pic' width='30vw' height='30vh' onClick={() => window.open('https://github.com/tarunsai2912/Pocket_Notes', '_blank')}></img>
-            <img className='p3-img1-project' src={link_logo} alt='link_pic' width='30vw' height='30vh' onClick={() => window.open('https://tarunsai2912.github.io/Pocket_Notes/', '_blank')}></img>
+            <img className='p3-img2-project' src={link_logo} alt='link_pic' width='30vw' height='30vh' onClick={() => window.open('https://tarunsai2912.github.io/Pocket_Notes/', '_blank')}></img>
           </div>
         </div>
       </div>
