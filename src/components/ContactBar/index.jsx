@@ -2,7 +2,7 @@ import React from 'react'
 import linkedinLogo from '../../assets/linkedin.png'
 import gmailLogo from '../../assets/gmail.png'
 import fbLogo from '../../assets/facebook.png'
-import instaLogo from '../../assets/instagram.jpg'
+import instaLogo from '../../assets/insta-logo.png'
 import copyLogo from '../../assets/copy.png'
 import gitLogo from '../../assets/github.png'
 import { ToastContainer, toast } from 'react-toastify';
@@ -66,7 +66,7 @@ function ContactBar() {
         <img className='d2-img1-contact' src={fbLogo} alt='fb_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.facebook.com/tarunsai.rayapureddi/', '_blank')}></img>
         <img className='d2-img2-contact' src={instaLogo} alt='insta_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.instagram.com/tarun_sai_rayapureddi/', '_blank')}></img>
         <img className='d2-img3-contact' src={linkedinLogo} alt='linkedin_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.linkedin.com/in/tarunsai-rayapureddi-22b329215/', '_blank')}></img>
-        <img className='d2-img4-contact' src={gmailLogo} alt='gmail_pic' width='30vw' height='28vh' onClick={handleClickEmail}></img>
+        <img className='d2-img4-contact' src={gmailLogo} alt='gmail_pic' width='30vw' height='26vh' onClick={handleClickEmail}></img>
         <img className='d2-img5-contact' src={gitLogo} alt='github_pic' width='30vw' height='33vh' onClick={() => window.open('https://github.com/tarunsai2912', '_blank')}></img>
       </div>
     </div>
