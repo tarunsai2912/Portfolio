@@ -11,7 +11,7 @@ import menuLogo from '../../assets/menu.png'
 function LandingPage({width}) {
 
   const [menu, setMenu] = useState(false)
-  const fileDownloadLink = "https://drive.google.com/uc?export=download&id=1AcRMrBJ1PYNviGz5ewURKADQ7P-w2rvo";
+  const fileDownloadLink = "https://drive.google.com/uc?export=download&id=1E7zHuJhK0lVNVHXzjzFaC2kleBEofqJ8";
 
   const handleDownload = () => {
     const link = document.createElement('a')
