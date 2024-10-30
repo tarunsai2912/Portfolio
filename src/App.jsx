@@ -47,7 +47,7 @@ function App() {
           <Link className='top-head-app' to="contact" smooth={true} duration={500}>Contact Me</Link>
         </div>}
         {width < 500 && <div className='top-nav1-app'>
-          <img className='nav-img1-app' width='30px' height='30px' src={menuLogo} alt='menu_pic' onClick={() => setMenu(!menu)}></img>
+          <img className='nav-img1-app' width='25px' height='30px' src={menuLogo} alt='menu_pic' onClick={() => setMenu(!menu)}></img>
         </div>}
         {menu && <div className='top-nav2-app'>
           <Link className='top-head1-app' to="about" smooth={true} duration={500}>About Me</Link>
