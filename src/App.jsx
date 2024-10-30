@@ -12,7 +12,7 @@ function App() {
 
   const [menu, setMenu] = useState(false)
   const [width, setWidth] = useState(window.innerWidth)
-  const fileDownloadLink = "https://drive.google.com/uc?export=download&id=1vRmciTg5JobGeL75Vx9w_qjRLvmxwJgf"
+  const fileDownloadLink = "https://drive.google.com/uc?export=download&id=1FASXOUq4Nj_1fSNlB9ZQOOrp2tCjVCDC"
 
   const handleDownload = () => {
     const link = document.createElement('a')
