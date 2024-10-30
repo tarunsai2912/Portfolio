@@ -148,12 +148,14 @@
     }
     .app-top-container{
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 4vh;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
     }
     .top-nav1-app{
         background-color: #E5E5E5;
