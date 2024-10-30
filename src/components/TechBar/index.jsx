@@ -14,8 +14,8 @@ function TechBar() {
         <div className='top-div-tech'>
           {techStackArray.map((each, index) => 
           <div className='tech-div-tech' key={index}>
-            <img className='img1-tech' src={each[0]} alt='techstack_pic' width='110vw' height='100vh'></img>
-            <p className='para1-tech'>{each[1]}</p>
+            <img className='img1-tech' src={each[0]} alt='techstack_pic'></img>
+            <h3 className='para1-tech'>{each[1]}</h3>
           </div>
           )}
         </div>
@@ -25,7 +25,7 @@ function TechBar() {
         <div className='foot-div-tech'>
           {toolsArray.map((each, index) => 
           <div className='tool-div-tech' key={index}>
-            <img className='img2-tech' src={each[0]} alt='techstack_pic' width='110vw' height='100vh'></img>
+            <img className='img2-tech' src={each[0]} alt='techstack_pic'></img>
             <p className='para2-tech'>{each[1]}</p>
           </div>
           )}

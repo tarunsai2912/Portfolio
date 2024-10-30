@@ -54,20 +54,20 @@ function ContactBar() {
       <div className='div1-contact'>
         <div className='d1-div1-contact' onClick={copyToClipboardMobile}>
           <h3 className='d1-mob-contact'>Mobile No: 8688277423</h3>
-          <img className='d1-img-contact' src={copyLogo} alt='copy_pic' width='20vw' height='20vh'></img>
+          <img className='d1-img-contact' src={copyLogo} alt='copy_pic'></img>
         </div>
         <div className='d1-div2-contact' onClick={copyToClipboardEmail}>
           <h3 className='d2-mob-contact'>Email Id: tarunsairayapureddi@gmail.com</h3>
-          <img className='d2-img-contact' src={copyLogo} alt='copy_pic' width='20vw' height='20vh'></img>
+          <img className='d2-img-contact' src={copyLogo} alt='copy_pic'></img>
         </div>
       </div>
       <h3 className='head2-contact'>Feel free to reach out to me either through Email or Mobile</h3>
       <div className='div2-contact'>
-        <img className='d2-img1-contact' src={fbLogo} alt='fb_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.facebook.com/tarunsai.rayapureddi/', '_blank')}></img>
-        <img className='d2-img2-contact' src={instaLogo} alt='insta_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.instagram.com/tarun_sai_rayapureddi/', '_blank')}></img>
-        <img className='d2-img3-contact' src={linkedinLogo} alt='linkedin_pic' width='30vw' height='30vh' onClick={() => window.open('https://www.linkedin.com/in/tarunsai-rayapureddi-22b329215/', '_blank')}></img>
-        <img className='d2-img4-contact' src={gmailLogo} alt='gmail_pic' width='30vw' height='26vh' onClick={handleClickEmail}></img>
-        <img className='d2-img5-contact' src={gitLogo} alt='github_pic' width='30vw' height='33vh' onClick={() => window.open('https://github.com/tarunsai2912', '_blank')}></img>
+        <img className='d2-img1-contact' src={fbLogo} alt='fb_pic' onClick={() => window.open('https://www.facebook.com/tarunsai.rayapureddi/', '_blank')}></img>
+        <img className='d2-img2-contact' src={instaLogo} alt='insta_pic' onClick={() => window.open('https://www.instagram.com/tarun_sai_rayapureddi/', '_blank')}></img>
+        <img className='d2-img3-contact' src={linkedinLogo} alt='linkedin_pic' onClick={() => window.open('https://www.linkedin.com/in/tarunsai-rayapureddi-22b329215/', '_blank')}></img>
+        <img className='d2-img4-contact' src={gmailLogo} alt='gmail_pic' onClick={handleClickEmail}></img>
+        <img className='d2-img5-contact' src={gitLogo} alt='github_pic' onClick={() => window.open('https://github.com/tarunsai2912', '_blank')}></img>
       </div>
     </div>
   )

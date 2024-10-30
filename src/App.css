@@ -5,4 +5,282 @@
     width: 100vw;
     overflow-x: hidden;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar{
+    width: 0.5vw;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #9CB7C5;
+    border-radius: 10px;
+}
+.app-top-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+}
+.top-nav-app{
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #c9d5e3;
+    z-index: 1;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.top-head-app{
+    font-family: Poppins;
+    font-size: 1.7vw;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000000;
+    padding-right: 2vw;
+}
+.top-head-app:hover{
+    color: rgb(147, 131, 234);
+    font-weight: 600;
+}
+.top-para-app{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.top-div1-app{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-para1-app{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 2.7vw;
+    color: #21243D;
+    font-weight: 700;
+}
+.top-para2-app{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 2vw;
+    color: #21243D;
+    font-weight: 500;
+}
+.top-para3-app{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    color: #21243D;
+    font-weight: 500;
+}
+.top-div2-app{
+    background-color: rgb(147, 131, 234);
+    border-radius: 100%;
+    height: 330px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 45deg;
+}
+.top-img1-app{
+    width: 250px;
+    height: 250px;
+}
+.top-div2-app:hover{
+    background-color: rgb(28, 4, 168);
+}
+.top-img1-app{
+    border-radius: 30%;
+    rotate: -45deg;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.top-btn-app{
+    background-color: #FF6B6B;
+    border: none;
+    border-radius: 10px;
+    height: 8vh;
+    width: 15vw;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 14vw;
+}
+.top-btn-app:hover{
+    opacity: 0.7;
+}
+@media (max-width: 500px) {
+    .app{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    ::-webkit-scrollbar{
+        width: 0.5vw;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #9CB7C5;
+        border-radius: 10px;
+    }
+    .app-top-container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4vh;
+    }
+    .top-nav1-app{
+        background-color: #E5E5E5;
+        border-bottom: 1px solid #c9d5e3;
+        z-index: 1;
+        height: 5vh;
+        width: 100vw;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .nav-img1-app{
+        position: relative;
+        right: 3vw;
+    }
+    .top-nav2-app{
+        background-color: #E5E5E5;
+        box-shadow: 0px 0px 25px 0px #00000026;
+        border-radius: 0 0 10px 10px;
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1000;
+        position: fixed;
+        top: 5vh;
+        right: 0;
+    }
+    .top-head1-app{
+        font-family: Poppins;
+        font-size: 4vw;
+        font-weight: 400;
+        color: #21243D;
+        display: flex;
+        justify-content: center;
+        padding-top: 1vh;
+    }
+    .null-para-app{
+        width: 20vw;
+        border: 2px solid #D7D7D7;
+        border-radius: 2px;
+    }
+    .top-para-app{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-div1-app{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-para1-app{
+        width: 90%;
+        font-family: Poppins;
+        font-size: 8vw;
+        color: #21243D;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-para2-app{
+        width: 90%;
+        font-family: Poppins;
+        font-size: 6vw;
+        color: #21243D;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .top-para3-app{
+        width: 90%;
+        font-family: Poppins;
+        font-size: 4.8vw;
+        color: #21243D;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .top-div2-app{
+        background-color: rgb(147, 131, 234);
+        border-radius: 100%;
+        height: 270px;
+        box-shadow: 0px 0px 25px 0px #00000026;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        rotate: 45deg;
+    }
+    .top-img1-app{
+        width: 200px;
+        height: 200px;
+    }
+    .top-div2-app:hover{
+        background-color: rgb(147, 131, 234);
+    }
+    .top-btn-app{
+        background-color: #FF6B6B;
+        border: none;
+        border-radius: 10px;
+        height: 5vh;
+        width: 55vw;
+        cursor: pointer;
+        font-family: Poppins;
+        color: #FFFFFF;
+        font-size: 4.5vw;
+        box-shadow: 0px 0px 25px 0px #00000026;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0vw;
+    }
+    .top-btn-app:hover{
+        opacity: 1;
+    }
 }
