@@ -61,20 +61,20 @@
 .p1-img1-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p1-img1-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .p1-img2-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p1-img2-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .null-div1-project{
     width: 90%;
@@ -124,20 +124,20 @@
 .p2-img1-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p2-img1-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .p2-img2-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p2-img2-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .null-div2-project{
     width: 90%;
@@ -187,20 +187,20 @@
 .p3-img1-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p3-img1-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .p3-img2-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p3-img2-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .null-div3-project{
     width: 90%;
@@ -250,20 +250,20 @@
 .p4-img1-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p4-img1-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .p4-img2-project{
     width: 30px;
     height: 30px;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     cursor: pointer;
 }
 .p4-img2-project:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 .null-div4-project{
     width: 90%;
