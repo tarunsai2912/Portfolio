@@ -41,22 +41,26 @@ function App() {
     <div className='app'>
       <div className='app-top-container'>
         {width > 500 && <div className='top-nav-app'>
-          <Link className='top-head-app' to="about" smooth={true} duration={500}>About Me</Link>
-          <Link className='top-head-app' to="skills" smooth={true} duration={500}>My Skills</Link>
-          <Link className='top-head-app' to="works" smooth={true} duration={500}>My Works</Link>
-          <Link className='top-head-app' to="contact" smooth={true} duration={500}>Contact Me</Link>
+          <h3 className='top-head1-app'>𝓣𝓪𝓻𝓾𝓷 𝓢𝓪𝓲</h3>
+          <div className='top-div-app'>
+            <Link className='top-head2-app' to="about" smooth={true} duration={500}>About Me</Link>
+            <Link className='top-head2-app' to="skills" smooth={true} duration={500}>My Skills</Link>
+            <Link className='top-head2-app' to="works" smooth={true} duration={500}>My Works</Link>
+            <Link className='top-head2-app' to="contact" smooth={true} duration={500}>Contact Me</Link>
+          </div>
         </div>}
         {width < 500 && <div className='top-nav1-app'>
+          <h3 className='top-head-app'>𝓣𝓪𝓻𝓾𝓷 𝓢𝓪𝓲</h3>
           <img className='nav-img1-app' width='25px' height='30px' src={menuLogo} alt='menu_pic' onClick={() => setMenu(!menu)}></img>
         </div>}
         {menu && <div className='top-nav2-app'>
-          <Link className='top-head1-app' to="about" smooth={true} duration={500}>About Me</Link>
+          <Link className='top-head2-app' to="about" smooth={true} duration={500}>About Me</Link>
           <p className='null-para-app'></p>
-          <Link className='top-head1-app' to="skills" smooth={true} duration={500}>My Skills</Link>
+          <Link className='top-head2-app' to="skills" smooth={true} duration={500}>My Skills</Link>
           <p className='null-para-app'></p>
-          <Link className='top-head1-app' to="works" smooth={true} duration={500}>My Works</Link>
+          <Link className='top-head2-app' to="works" smooth={true} duration={500}>My Works</Link>
           <p className='null-para-app'></p>
-          <Link className='top-head1-app' to="contact" smooth={true} duration={500}>Contact Me</Link>
+          <Link className='top-head2-app' to="contact" smooth={true} duration={500}>Contact Me</Link>
           <p className='null-para-app'></p>
         </div>}
         <div className='top-para-app' onClick={closeFlag}>
