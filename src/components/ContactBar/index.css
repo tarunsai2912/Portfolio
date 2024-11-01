@@ -142,7 +142,7 @@
     }
     .head1-contact{
         font-family: Poppins;
-        font-size: 5vw;
+        font-size: 6vw;
         font-weight: 700;
         color: #21243D;
         display: flex;
@@ -160,10 +160,9 @@
     .d1-div1-contact{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 4vh;
-        gap: 1vw;
         border: 2px solid black;
         border-radius: 10px;
         width: 100%;
@@ -176,18 +175,21 @@
         font-size: 4vw;
         color: #21243D;
         font-weight: 500;
+        position: relative;
+        left: 3vw;
     }
     .d1-img-contact{
         width: 18px;
         height: 18px;
+        position: relative;
+        right: 3vw;
     }
     .d1-div2-contact{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 4vh;
-        gap: 1vw;
         border: 2px solid black;
         border-radius: 10px;
         width: 100%;
@@ -200,10 +202,14 @@
         font-size: 3.3vw;
         color: #21243D;
         font-weight: 500;
+        position: relative;
+        left: 3vw;
     }
     .d2-img-contact{
         width: 18px;
         height: 18px;
+        position: relative;
+        right: 3vw;
     }
     .head2-contact{
         width: 90%;

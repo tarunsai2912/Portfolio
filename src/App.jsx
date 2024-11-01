@@ -41,7 +41,7 @@ function App() {
     <div className='app'>
       <div className='app-top-container'>
         {width > 500 && <div className='top-nav-app'>
-          <h3 className='top-head1-app'>𝓣𝓪𝓻𝓾𝓷 𝓢𝓪𝓲</h3>
+          <h3 className='top-head1-app'>Tarun Sai</h3>
           <div className='top-div-app'>
             <Link className='top-head2-app' to="about" smooth={true} duration={500}>About Me</Link>
             <Link className='top-head2-app' to="skills" smooth={true} duration={500}>My Skills</Link>
@@ -50,7 +50,7 @@ function App() {
           </div>
         </div>}
         {width < 500 && <div className='top-nav1-app'>
-          <h3 className='top-head-app'>𝓣𝓪𝓻𝓾𝓷 𝓢𝓪𝓲</h3>
+          <h3 className='top-head-app'>Tarun Sai</h3>
           <img className='nav-img1-app' width='25px' height='30px' src={menuLogo} alt='menu_pic' onClick={() => setMenu(!menu)}></img>
         </div>}
         {menu && <div className='top-nav2-app'>
